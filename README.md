@@ -4,11 +4,9 @@ Using HTML forms to complete JavaScript events
 With three <p>s of text, complete two of the following:
   
 Tier I
-
     Change text color
     Change text font
     Highlight entire paragraph
-
   
 Tier II  
     Find & replace
