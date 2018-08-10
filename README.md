@@ -1,7 +1,7 @@
 # literary-mutilator
 Using HTML forms to complete JavaScript events
 
-With three <p>s of text, complete two of the following:
+With three paragraphs of text, complete two of the following:
   
 Tier I
     Change text color
