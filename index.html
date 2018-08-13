@@ -26,14 +26,17 @@
 					<div class="col-md-4">
 						<div class="card mb-4">
 							<div class="card-body">
-								<h5 class="card-title">Shuffle/Highlight Word</h5>
+								<h5 class="card-title">Highlight Word</h5>
 								<p id="search_para">Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.</p>
 								<div class="input-group mb-3">
 									<input id="search_text" type="text" class="form-control" placeholder="Highlight Word: " aria-label="Highlight Word: " aria-describedby="button-addon2">
 									<div class="input-group-append">
 										<button class="btn btn-outline-secondary" type="button" id="search" onClick="highlight()">Highlight</button>
 									</div>
+									<hr />
 								</div>
+								<h5>Keyboard Events</h5>
+								<p><input onkeydown = "return checkPhoneKey(event.key)" placeholder = "enter phone number" type = "tel"></p>
 							</div>
 						</div>
 					</div>
@@ -41,7 +44,9 @@
 						<div class="card mb-4">
 							<div class="card-body">
 								<h5 class="card-title">ROT13 Encryption</h5>
-								<p id="communication">Communication is not possible. The shuttle has no power. Using the gravitational pull of a star to slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five planetary systems. Assemble a team. Look at records of the Drema quadrant. Would these scans detect artificial transmissions as well as natural signals?</p>
+								<textarea id="communication" rows="10"  cols="35">Communication is not possible. The shuttle has no power. Using the gravitational pull of a star to slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five planetary systems. Assemble a team.</textarea>
+								<br>
+								<input type="submit" id="rot13" value="Encrypt">
 							</div>
 						</div>
 					</div>
