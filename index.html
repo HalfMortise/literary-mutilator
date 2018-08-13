@@ -26,10 +26,14 @@
 					<div class="col-md-4">
 						<div class="card mb-4">
 							<div class="card-body">
-								<h5 class="card-title">Find & Replace/Highlight Word</h5>
-								<p id="possibilities">Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.</p>
-							<button class="btn btn-primary" type="submit" onclick="turnGreen()">Change Color</button><hr />
-							<button class="btn btn-primary" type="submit" onclick="turnFont()">Change Font</button>
+								<h5 class="card-title">Shuffle/Highlight Word</h5>
+								<p id="search_para">Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.</p>
+								<div class="input-group mb-3">
+									<input id="search_text" type="text" class="form-control" placeholder="Highlight Word: " aria-label="Highlight Word: " aria-describedby="button-addon2">
+									<div class="input-group-append">
+										<button class="btn btn-outline-secondary" type="button" id="search" onClick="highlight()">Highlight</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

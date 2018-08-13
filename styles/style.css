@@ -2,3 +2,15 @@
 	font-family: 'Courier New', sans-serif;
 	font-size: 10px;
 }
+
+.highlight {
+	background-color: dodgerblue;
+}
+
+#search_para {
+	color: black;
+}
+
+.highlight {
+	background-color: cornflowerblue;
+}
